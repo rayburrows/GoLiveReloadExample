@@ -10,7 +10,7 @@ import (
 func main() {
 	for {
 		id := uuid.New()
-		fmt.Println("########-> This is the new id: ", id.String())
+		fmt.Println("#####-> This is the new id: ", id.String())
 		time.Sleep(4 * time.Second)
 	}
 }
